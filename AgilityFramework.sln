@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C600A6E5-A578-4771-A898-CE6210E58199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "src\Host\Host.csproj", "{CDB5CE00-BA23-4FD4-8056-7259DAA02EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared.csproj", "{47976BD5-FEAF-43D3-B508-C7C62392B5DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{8E94FAC3-6A44-4753-BE8B-DD16A3B11333}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E46EB58A-F24C-4EE4-89A9-9B587F294A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Invoicing", "src\Modules\Module.Invoicing\Module.Invoicing.csproj", "{D37B294A-9120-4914-A884-DEAB37A4AE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Paiement", "src\Modules\Module.Paiement\Module.Paiement.csproj", "{24A69BD7-D359-4011-B491-AE70AC70D4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.ECommerce", "src\Modules\Module.ECommerce\Module.ECommerce.csproj", "{FF6ACD5B-6146-450A-9CAE-DF8C426BB396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB5CE00-BA23-4FD4-8056-7259DAA02EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB5CE00-BA23-4FD4-8056-7259DAA02EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB5CE00-BA23-4FD4-8056-7259DAA02EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB5CE00-BA23-4FD4-8056-7259DAA02EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47976BD5-FEAF-43D3-B508-C7C62392B5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47976BD5-FEAF-43D3-B508-C7C62392B5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47976BD5-FEAF-43D3-B508-C7C62392B5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47976BD5-FEAF-43D3-B508-C7C62392B5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E94FAC3-6A44-4753-BE8B-DD16A3B11333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E94FAC3-6A44-4753-BE8B-DD16A3B11333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E94FAC3-6A44-4753-BE8B-DD16A3B11333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E94FAC3-6A44-4753-BE8B-DD16A3B11333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37B294A-9120-4914-A884-DEAB37A4AE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37B294A-9120-4914-A884-DEAB37A4AE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37B294A-9120-4914-A884-DEAB37A4AE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37B294A-9120-4914-A884-DEAB37A4AE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A69BD7-D359-4011-B491-AE70AC70D4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A69BD7-D359-4011-B491-AE70AC70D4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A69BD7-D359-4011-B491-AE70AC70D4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A69BD7-D359-4011-B491-AE70AC70D4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6ACD5B-6146-450A-9CAE-DF8C426BB396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6ACD5B-6146-450A-9CAE-DF8C426BB396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6ACD5B-6146-450A-9CAE-DF8C426BB396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6ACD5B-6146-450A-9CAE-DF8C426BB396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDB5CE00-BA23-4FD4-8056-7259DAA02EB6} = {C600A6E5-A578-4771-A898-CE6210E58199}
+		{47976BD5-FEAF-43D3-B508-C7C62392B5DB} = {C600A6E5-A578-4771-A898-CE6210E58199}
+		{8E94FAC3-6A44-4753-BE8B-DD16A3B11333} = {C600A6E5-A578-4771-A898-CE6210E58199}
+		{E46EB58A-F24C-4EE4-89A9-9B587F294A08} = {C600A6E5-A578-4771-A898-CE6210E58199}
+		{D37B294A-9120-4914-A884-DEAB37A4AE50} = {E46EB58A-F24C-4EE4-89A9-9B587F294A08}
+		{24A69BD7-D359-4011-B491-AE70AC70D4BB} = {E46EB58A-F24C-4EE4-89A9-9B587F294A08}
+		{FF6ACD5B-6146-450A-9CAE-DF8C426BB396} = {E46EB58A-F24C-4EE4-89A9-9B587F294A08}
+	EndGlobalSection
+EndGlobal
